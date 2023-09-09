@@ -8,7 +8,7 @@ Una arquitectura adecuada que nos proporcione la funcionalidad deseada y los atr
 De acuerdo con Wikipedia, un patrón arquitectónico es una solución general y reutilizable a un problema común en la arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares al patrón de diseño de software pero tienen un alcance más amplio.
 
 ## Los 10 patrones comunes de arquitectura de software
-
+- [KISS](#kiss)
 [Patrón de capas](#Patrón de capas)
 [Patrón cliente-servidor](#Patrón cliente-servidor)
 [Patrón maestro-esclavo](#Patrón maestro-esclavo)
