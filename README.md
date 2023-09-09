@@ -11,16 +11,16 @@ Un patrón arquitectónico es una solución general y reutilizable a un problema
 
 ###En este artículo, explicaré brevemente los siguientes 10 patrones arquitectónicos comunes con su uso, pros y contras.
 
-### -[Patrón de capas] (Patrón de capas)
-### -[Patrón cliente-servidor] (Patrón cliente-servidor)
-### -[Patrón maestro-esclavo] (Patrón maestro-esclavo)
-### -[Patrón de filtro de tubería] (Patrón de filtro de tubería)
-### -[Patrón de intermediario] (Patrón de intermediario)
-### -[Patrón de igual a igual] (Patrón de igual a igual)
-### -[Patrón de bus de evento] (Patrón de bus de evento)
-### -[Modelo-vista-controlador] (Modelo-vista-controlador)
-### -[Patrón de pizarra] (Patrón de pizarra)
-### -[Patrón de intérprete] (Patrón de intérprete)
+-[Patrón de capas] (Patrón de capas)
+-[Patrón cliente-servidor] (Patrón cliente-servidor)
+-[Patrón maestro-esclavo] (Patrón maestro-esclavo)
+-[Patrón de filtro de tubería] (Patrón de filtro de tubería)
+-[Patrón de intermediario] (Patrón de intermediario)
+-[Patrón de igual a igual] (Patrón de igual a igual)
+-[Patrón de bus de evento] (Patrón de bus de evento)
+-[Modelo-vista-controlador] (Modelo-vista-controlador)
+-[Patrón de pizarra] (Patrón de pizarra)
+-[Patrón de intérprete] (Patrón de intérprete)
 
 ## 1. Patrón de capas
 Este patrón se puede utilizar para estructurar programas que se pueden descomponer en grupos de subtareas, cada una de las cuales se encuentra en un nivel particular de abstracción. Cada capa proporciona servicios a la siguiente capa superior.
@@ -35,6 +35,7 @@ Capa de acceso a datos (También conocida como capa de persistencia)
 ## Uso
 Aplicaciones de escritorio generales.
 Aplicaciones web de comercio electrónico.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/3ed57970-cc82-40c5-ba23-055747069a5e)
 
 ## 2. Patrón cliente-servidor
@@ -42,6 +43,7 @@ Este patrón consiste en dos partes; un servidor y múltiples clientes . El comp
 
 ## Uso
 Aplicaciones en línea como correo electrónico, uso compartido de documentos y banca.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/41db8f0b-5e63-49cf-ad86-ba1803805eda)
 
 ## 3. Patrón maestro-esclavo
@@ -50,6 +52,7 @@ Este patrón consiste en dos partes; maestro y esclavos . El componente maestro 
 ## Uso
 En la replicación de la base de datos, la base de datos maestra se considera como la fuente autorizada y las bases de datos esclavas se sincronizan con ella.
 Periféricos conectados a un bus en un sistema informático (unidades maestra y esclava).
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/365f6127-3400-4529-971f-0d49a29d0c06)
 
 ## 4. Patrón de filtro de tubería
@@ -58,6 +61,7 @@ Este patrón se puede usar para estructurar sistemas que producen y procesan una
 ## Uso
 Compiladores Los filtros consecutivos realizan análisis léxico, análisis sintáctico y generación de código.
 Flujos de trabajo en bioinformática.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/4ef4aa5e-0937-4a47-af02-630edd713556)
 
 ## 5. Patrón del agente
@@ -66,7 +70,8 @@ Este patrón se usa para estructurar sistemas distribuidos con componentes desac
 Los servidores publican sus capacidades (servicios y características) a un intermediario. Los clientes solicitan un servicio del intermediario y el intermediario redirecciona al cliente a un servicio adecuado desde su registro.
 
 ## Uso
-Software de Message Broker como Apache ActiveMQ , Apache Kafka , RabbitMQ y JBoss Messaging .
+Software de Message Broker como Apache ActiveMQ , Apache Kafka , RabbitMQ y JBoss Messaging.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/079f69cb-7755-4daa-acd2-678d8cd1b8b3)
 
 ## 6. Patrón de igual a igual
@@ -74,21 +79,8 @@ En este patrón, los componentes individuales se conocen como pares . Los pares 
 
 ## Uso
 Redes de intercambio de archivos como Gnutella y G2 )
-Protocolos multimedia como P2PTV y PDTP .
+Protocolos multimedia como P2PTV y PDTP.
 
-## 6. Patrón de igual a igual
-En este patrón, los componentes individuales se conocen como pares . Los pares pueden funcionar tanto como un cliente , solicitando servicios de otros pares, y como un servidor , proporcionando servicios a otros pares. Un par puede actuar como un cliente o como un servidor o como ambos, y puede cambiar su rol dinámicamente con el tiempo.
-
-## Uso
-Redes de intercambio de archivos como Gnutella y G2 )
-Protocolos multimedia como P2PTV y PDTP .
-
-## 6. Patrón de igual a igual
-En este patrón, los componentes individuales se conocen como pares . Los pares pueden funcionar tanto como un cliente , solicitando servicios de otros pares, y como un servidor , proporcionando servicios a otros pares. Un par puede actuar como un cliente o como un servidor o como ambos, y puede cambiar su rol dinámicamente con el tiempo.
-
-## Uso
-Redes de intercambio de archivos como Gnutella y G2 )
-Protocolos multimedia como P2PTV y PDTP .
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/321afb1e-ac12-4e97-87bd-5e13ba9ffb70)
 
 ## 7. Patrón de bus de evento
@@ -96,7 +88,8 @@ Este patrón trata principalmente con eventos y tiene 4 componentes principales;
 
 ## Uso
 Desarrollo de Android
-Servicios de notificación
+Servicios de notificación.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/97ae858e-3bf1-4b47-9711-0d97284caa71)
 
 ## 8. Patrón de modelo-vista-controlador
@@ -109,7 +102,8 @@ Esto se hace para separar las representaciones internas de información de las f
 
 ## Uso
 Arquitectura para aplicaciones World Wide Web en los principales lenguajes de programación.
-Marcos web como Django y Rails .
+Marcos web como Django y Rails.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/b786862b-3990-4500-9d83-00084b5b246d)
 
 ## 9. Patrón de pizarra
@@ -125,6 +119,7 @@ Reconocimiento de voz
 Identificación y seguimiento del vehículo
 Identificación de la estructura proteica
 Sonar señala la interpretación.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/743414f8-a785-4fb8-963b-c805fa5157ed)
 
 ## 10. Patrón de intérprete
@@ -133,4 +128,5 @@ Este patrón se usa para diseñar un componente que interpreta programas escrito
 ## Uso
 Lenguajes de consulta de base de datos como SQL.
 Idiomas utilizados para describir los protocolos de comunicación.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/f54d78ac-98b9-48c3-a429-0737ef1fcace)
