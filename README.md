@@ -1,15 +1,13 @@
-__________________________
+
 # Patrones Arquitectonicos
 Una arquitectura adecuada que nos proporcione la funcionalidad deseada y los atributos de calidad. Por lo tanto, debemos entender diferentes arquitecturas, antes de aplicarlas a nuestro diseño.
+
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/6aae702a-31a2-4f9b-9c89-4c5e15a3c0b2)
 
-## Los 10 patrones comunes de arquitectura de software
-
 ## ¿Qué es un patrón arquitectónico?
-De acuerdo con Wikipedia,
-Un patrón arquitectónico es una solución general y reutilizable a un problema común en la arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares al patrón de diseño de software pero tienen un alcance más amplio.
+De acuerdo con Wikipedia, un patrón arquitectónico es una solución general y reutilizable a un problema común en la arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares al patrón de diseño de software pero tienen un alcance más amplio.
 
-###En este artículo, explicaré brevemente los siguientes 10 patrones arquitectónicos comunes con su uso, pros y contras.
+## Los 10 patrones comunes de arquitectura de software
 
 -[Patrón de capas] (Patrón de capas)
 -[Patrón cliente-servidor] (Patrón cliente-servidor)
@@ -27,10 +25,10 @@ Este patrón se puede utilizar para estructurar programas que se pueden descompo
 
 ## Las 4 capas más comúnmente encontradas de un sistema de información general son las siguientes.
 
-Capa de presentación (También conocida como capa UI)
-Capa de aplicación (También conocida como capa de servicio)
-Capa de lógica de negocios (También conocida como capa de dominio)
-Capa de acceso a datos (También conocida como capa de persistencia)
+- Capa de presentación (También conocida como capa UI)
+- Capa de aplicación (También conocida como capa de servicio)
+- Capa de lógica de negocios (También conocida como capa de dominio)
+- Capa de acceso a datos (También conocida como capa de persistencia)
 
 ## Uso
 Aplicaciones de escritorio generales.
