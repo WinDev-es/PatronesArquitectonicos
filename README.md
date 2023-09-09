@@ -8,17 +8,17 @@ Una arquitectura adecuada que nos proporcione la funcionalidad deseada y los atr
 De acuerdo con Wikipedia, un patrón arquitectónico es una solución general y reutilizable a un problema común en la arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares al patrón de diseño de software pero tienen un alcance más amplio.
 
 ## Los 10 patrones comunes de arquitectura de software
-- [KISS](#kiss)
-[Patrón de capas](#Patrón de capas)
-[Patrón cliente-servidor](#Patrón cliente-servidor)
-[Patrón maestro-esclavo](#Patrón maestro-esclavo)
-[Patrón de filtro de tubería](#Patrón de filtro de tubería)
-[Patrón de intermediario](#Patrón de intermediario)
-[Patrón de igual a igual](#Patrón de igual a igual)
-[Patrón de bus de evento](#Patrón de bus de evento)
-[Modelo-vista-controlador](#Modelo-vista-controlador)
-[Patrón de pizarra](#Patrón de pizarra)
-[Patrón de intérprete](#Patrón de intérprete)
+
+- [Patrón de capas](#Patrón-de-capas)
+- [Patrón cliente-servidor](#Patrón-cliente-servidor)
+- [Patrón maestro-esclavo](#Patrón-maestro-esclavo)
+- [Patrón de filtro de tubería](#Patrón-de-filtro-de-tubería)
+- [Patrón de intermediario](#Patrón-de-intermediario)
+- [Patrón de igual a igual](#Patrón-de-igual-a-igual)
+- [Patrón de bus de evento](#Patrón-de-bus-de-evento)
+- [Modelo-vista-controlador](#Modelo-vista-controlador)
+- [Patrón de pizarra](#Patrón-de-pizarra)
+- [Patrón de intérprete](#Patrón-de-intérprete)
 
 ## 1. Patrón de capas
 Este patrón se puede utilizar para estructurar programas que se pueden descomponer en grupos de subtareas, cada una de las cuales se encuentra en un nivel particular de abstracción. Cada capa proporciona servicios a la siguiente capa superior.
