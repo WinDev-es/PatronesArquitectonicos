@@ -3,24 +3,24 @@ __________________________
 Una arquitectura adecuada que nos proporcione la funcionalidad deseada y los atributos de calidad. Por lo tanto, debemos entender diferentes arquitecturas, antes de aplicarlas a nuestro diseño.
 ![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/6aae702a-31a2-4f9b-9c89-4c5e15a3c0b2)
 
-##Los 10 patrones comunes de arquitectura de software
+## Los 10 patrones comunes de arquitectura de software
 
-##¿Qué es un patrón arquitectónico?
+## ¿Qué es un patrón arquitectónico?
 De acuerdo con Wikipedia,
 Un patrón arquitectónico es una solución general y reutilizable a un problema común en la arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares al patrón de diseño de software pero tienen un alcance más amplio.
 
 ###En este artículo, explicaré brevemente los siguientes 10 patrones arquitectónicos comunes con su uso, pros y contras.
 
-### Patrón de capas
-### Patrón cliente-servidor
-### Patrón maestro-esclavo
-### Patrón de filtro de tubería
-### Patrón de intermediario
-### Patrón de igual a igual
-### Patrón de bus de evento
-### Modelo-vista-controlador
-### Patrón de pizarra
-### Patrón de intérprete
+### -[Patrón de capas] (Patrón de capas)
+### -[Patrón cliente-servidor] (Patrón cliente-servidor)
+### -[Patrón maestro-esclavo] (Patrón maestro-esclavo)
+### -[Patrón de filtro de tubería] (Patrón de filtro de tubería)
+### -[Patrón de intermediario] (Patrón de intermediario)
+### -[Patrón de igual a igual] (Patrón de igual a igual)
+### -[Patrón de bus de evento] (Patrón de bus de evento)
+### -[Modelo-vista-controlador] (Modelo-vista-controlador)
+### -[Patrón de pizarra] (Patrón de pizarra)
+### -[Patrón de intérprete] (Patrón de intérprete)
 
 ## 1. Patrón de capas
 Este patrón se puede utilizar para estructurar programas que se pueden descomponer en grupos de subtareas, cada una de las cuales se encuentra en un nivel particular de abstracción. Cada capa proporciona servicios a la siguiente capa superior.
@@ -35,7 +35,7 @@ Capa de acceso a datos (También conocida como capa de persistencia)
 ## Uso
 Aplicaciones de escritorio generales.
 Aplicaciones web de comercio electrónico.
-![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/0fdb6a2e-3a4d-4438-9ad5-44d7b1ee468d)
+![image](https://github.com/WinDev-es/PatronesArquitectonicos/assets/62816735/3ed57970-cc82-40c5-ba23-055747069a5e)
 
 ## 2. Patrón cliente-servidor
 Este patrón consiste en dos partes; un servidor y múltiples clientes . El componente del servidor proporcionará servicios a múltiples componentes del cliente. Los clientes solicitan servicios del servidor y el servidor proporciona servicios relevantes a esos clientes. Además, el servidor sigue escuchando las solicitudes de los clientes.
